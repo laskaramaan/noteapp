@@ -34,7 +34,7 @@ function Pagination({ showPerPage, onPaginationChange, total }) {
         <div className='pagination-main'>
             <div className='btn1'>
                 <button
-                    className=' '
+                    className='btn-primary  '
                     onClick={() => onButtonClick('prev')}>
                     Previous
                 </button>
